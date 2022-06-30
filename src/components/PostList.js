@@ -6,7 +6,7 @@ const PostList =()=>{
     const [data,setData]= useState(null);
     const [page,setPage]=useState(1);
     
-    const lidadData = async ()=>{
+    const loadData = async ()=>{
         fetchPosts(page,5)
         .then((res)=>res.json())
         .then((jsonData) => {
