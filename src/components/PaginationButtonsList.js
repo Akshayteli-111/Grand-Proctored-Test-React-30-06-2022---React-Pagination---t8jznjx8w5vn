@@ -8,7 +8,7 @@ const PaginationButtonsList = ({ page,clickHandler}) => {
         <div className="pagination-buttons-list">
         <button
         className={ele == page ? "active-btn": "" }
-        id={'button-${ele}'}
+        id={`button-${ele}`}
         key={id}
         onclick={() =>{
             clickHandler(ele);
