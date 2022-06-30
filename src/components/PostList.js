@@ -1,6 +1,6 @@
 import React ,{useEffect, useState } from "react";
 import { fetchPosts } from "../api/fetchPosts";
-import {PaginationButtonsList} from "./PaginationButtonsLIst";
+import {PaginationButtonsList} from "./PaginationButtonsList";
 import {Post} from "./Post";
 const PostList =()=>{
     const [data,setData]= useState(null);
