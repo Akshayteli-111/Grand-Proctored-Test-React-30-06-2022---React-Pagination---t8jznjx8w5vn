@@ -14,11 +14,11 @@ const PostList =()=>{
         });
     };
     useEffect(() =>
-              lisdData();
+              loadData();
               }, []);
       useEffect(() =>
                 setData(null);
-              lisdData();
+              loadData();
               }, [page]);
 
       const clickHandler = (val) => {
